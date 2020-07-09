@@ -1,0 +1,196 @@
+body,html {
+    height: 100%;
+    background:url("./foto./body.jpg");
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper {
+    flex: 1 0 auto;
+    /*padding: 10px;*/
+}
+/*верхняя часть сайта*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    box-shadow: 3px 2px 3px -1px #000000;
+
+}
+/*логотип*/
+.header-logo {
+    display: flex;
+    flex-direction: row;
+}
+.title-logo p {
+    text-decoration: none;
+    font-weight:bold;
+    font-family:"Colonna MT" ;
+    font-size: 30px;
+    color: darkmagenta;
+}
+.title-logo a {
+    text-decoration: none;
+    color: darkmagenta;
+}
+/*меню*/
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.nav-menu li a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    color: darkmagenta;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    font-size: 22px;
+}
+.nav-menu li:not(first-child) {
+    margin-left: 20px;
+}
+.nav-menu a:hover {
+    /*background-color: darkmagenta;*/
+    color: darkmagenta;
+    box-shadow: 1px 1px 10px darkmagenta;
+
+}
+
+/*Основная часть контента*/
+.content {
+    width: 1200px;
+    margin: 0 auto;
+    /*background-color: wheat;*/
+    display: flex;
+    flex-direction: column;
+}
+.element {
+    flex-basis: 250px;
+}
+.element-0,.element-1 img {
+    box-shadow: 1px 1px 10px darkmagenta;
+    border-radius: 5px;
+
+}
+.title-1 {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Yanone Kaffeesatz;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*.text-price {*/
+/*    width: 200px;*/
+/*    text-align: justify;*/
+/*}*/
+.title-foto p {
+    font-family:Lobster, cursive;
+    font-size: 20px;
+    margin-top: 0;
+    text-align: center;
+    /*width: 120px;*/
+}
+.element-2 {
+    width: 150px;
+}
+.element-2 img {
+    width: 150px;
+    height: 150px;
+    box-shadow: 1px 1px 10px darkmagenta;
+
+    border-radius: 100%;
+}
+.element-3 {
+    /*background:url("./foto./price-makeup-1.png");*/
+    /*filter: alpha(Opacity=50);*/
+    /*opacity: 0.5;*/
+
+}
+.element-3,.element-5  {
+    font-weight: bold;
+    margin: 20px;
+    text-align: justify;
+    box-shadow: 1px 1px 10px darkmagenta;
+    padding: 20px;
+    border-radius: 5px;
+
+
+}
+.price-makeup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.price-makeup p {
+    font-size: 20px;
+}
+.text-makeup {
+    font-family: Monotype Corsiva;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+
+.element-4,.element-6{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.makeup-photo {
+    /*border: 1px solid red;*/
+    flex-basis: 150px;
+    margin:10px;
+    box-shadow: 1px 1px 10px darkmagenta;
+    border-radius: 5px;
+
+}
+.partfolio {
+    margin-top: 10px;
+}
+
+.element-7 {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+    flex-shrink: 0;
+    /*background-color: coral;*/
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.socseti img {
+    border-radius: 100%;
+    box-shadow: 1px 1px 10px darkmagenta;
+
+}
+
+
