@@ -2,16 +2,19 @@ body,html {
     height: 100vh;
     background:url("./foto./body.jpg");
 }
+
 body {
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
 }
+
 .wrapper {
     flex: 1 0 auto;
     /*padding: 10px;*/
 }
+
 /*верхняя часть сайта*/
 .header {
     display: flex;
@@ -21,11 +24,13 @@ body {
     box-shadow: 3px 2px 3px -1px #000000;
 
 }
+
 /*логотип*/
 .header-logo {
     display: flex;
     flex-direction: row;
 }
+
 .title-logo p {
     text-decoration: none;
     font-weight:bold;
@@ -33,6 +38,7 @@ body {
     font-size: 30px;
     color: darkmagenta;
 }
+
 .title-logo a {
     text-decoration: none;
     color: darkmagenta;
@@ -44,6 +50,7 @@ body {
     margin: 0;
     display: flex;
 }
+
 .nav-menu li a {
     text-decoration: none;
     padding: 10px;
@@ -54,9 +61,11 @@ body {
     font-weight: bold;
     font-size: 22px;
 }
+
 .nav-menu li:not(first-child) {
     margin-left: 20px;
 }
+
 .nav-menu a:hover {
     /*background-color: darkmagenta;*/
     color: darkmagenta;
@@ -72,14 +81,17 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .element {
     flex-basis: 250px;
 }
+
 .element-0,.element-1 img {
     box-shadow: 1px 1px 10px darkmagenta;
     border-radius: 5px;
 
 }
+
 .title-1 {
     font-size: 26px;
     font-weight: bold;
@@ -87,6 +99,7 @@ body {
     text-align: center;
     margin-bottom: 20px;
 }
+
 .price {
     display: flex;
     flex-direction: row;
@@ -104,9 +117,11 @@ body {
     text-align: center;
     /*width: 120px;*/
 }
+
 .element-2 {
     width: 150px;
 }
+
 .element-2 img {
     width: 150px;
     height: 150px;
@@ -114,12 +129,14 @@ body {
 
     border-radius: 100%;
 }
+
 .element-3 {
     /*background:url("./foto./price-makeup-1.png");*/
     /*filter: alpha(Opacity=50);*/
     /*opacity: 0.5;*/
 
 }
+
 .element-3,.element-5  {
     font-weight: bold;
     margin: 20px;
@@ -130,6 +147,7 @@ body {
 
 
 }
+
 .price-makeup {
     display: flex;
     flex-direction: row;
@@ -138,6 +156,7 @@ body {
 .price-makeup p {
     font-size: 20px;
 }
+
 .text-makeup {
     font-family: Monotype Corsiva;
     font-weight: bold;
@@ -153,6 +172,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .makeup-photo img{
     /*border: 1px solid red;*/
     flex-basis: 150px;
@@ -161,6 +181,7 @@ body {
     border-radius: 5px;
 
 }
+
 .partfolio {
     margin-top: 10px;
 }
@@ -178,14 +199,13 @@ body {
     display: flex;
     justify-content: center;
 }
+
 .socseti img {
     border-radius: 100%;
 
 
 }
+
 .socseti {
     padding-right: 20px;
 }
-
-
-получилось?
